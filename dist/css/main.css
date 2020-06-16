@@ -1,0 +1,594 @@
+/*! project-name v0.0.1 | (c) 2020 YOUR NAME | MIT License | http://link-to-your-git-repo.com */
+/**
+ * @section Base Styles
+ */
+/* line 5, src/sass/components/_base.scss */
+body {
+  margin: 0 auto;
+  color: #fff;
+  font-family: 'Inter';
+  height: 2000px;
+}
+
+/* line 11, src/sass/components/_base.scss */
+body a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 17, src/sass/components/_base.scss */
+ul {
+  list-style: none;
+}
+
+/* line 21, src/sass/components/_base.scss */
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+/* line 28, src/sass/components/_base.scss */
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+}
+
+/* line 32, src/sass/components/_base.scss */
+.container {
+  max-width: 1380px;
+  display: block;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* line 40, src/sass/components/_base.scss */
+.flex-between-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+/* line 47, src/sass/components/_base.scss */
+.fxr-center-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 52, src/sass/components/_base.scss */
+.flex-vertical-align {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 58, src/sass/components/_base.scss */
+.mr-20 {
+  margin-right: 20px !important;
+}
+
+/* line 62, src/sass/components/_base.scss */
+.purple-bg {
+  display: block;
+  height: 1042px;
+  background: linear-gradient(109.94deg, #112EC5 -0.28%, #D92057 126.51%);
+}
+
+/* line 68, src/sass/components/_base.scss */
+.fs-16 {
+  font-size: 16px;
+}
+
+/* line 72, src/sass/components/_base.scss */
+.width-half {
+  width: 70%;
+  margin: initial;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../../fonts/Inter-Regular.woff2") format("woff2"), url("../../fonts/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter-Thin';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../../fonts/Inter-Thin.woff2") format("woff2"), url("../../fonts/Inter-Thin.woff") format("woff");
+}
+
+/*
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
+         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
+         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
+  }
+  
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
+         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
+  }
+  
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
+         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
+         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
+         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
+         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
+         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
+  }
+*/
+/* line 1, src/sass/components/_header.scss */
+header {
+  background-color: #050505;
+  height: 80px;
+  display: block;
+  width: 100%;
+}
+
+/* line 8, src/sass/components/_header.scss */
+header .container {
+  width: 100%;
+}
+
+/* line 12, src/sass/components/_header.scss */
+header h1 {
+  font-size: 24px;
+  padding-left: 10px;
+  margin: 0px;
+}
+
+/* line 18, src/sass/components/_header.scss */
+header img {
+  width: 40px;
+  height: 40px;
+}
+
+/* line 24, src/sass/components/_header.scss */
+header .menu li {
+  padding: 0 10px;
+}
+
+/* line 2, src/sass/components/_button.scss */
+.button {
+  color: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  border: none;
+  overflow: hidden;
+  background-color: #2E4FFF;
+  padding: 14px 30px;
+  line-height: 15px;
+}
+
+/* line 12, src/sass/components/_button.scss */
+.button.empty {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* line 17, src/sass/components/_button.scss */
+.button.pink {
+  background: #FF005C;
+}
+
+/* line 22, src/sass/components/_button.scss */
+.sim-button {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  height: 47px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* line 31, src/sass/components/_button.scss */
+.button::before {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+/* line 35, src/sass/components/_button.scss */
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.25);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translate(13%, -190%) rotate(30deg);
+          transform: translate(13%, -190%) rotate(30deg);
+  -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+          transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+
+/* line 49, src/sass/components/_button.scss */
+.button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.25);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translate(-13%, -190%) rotate(-30deg);
+          transform: translate(-13%, -190%) rotate(-30deg);
+  -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+          transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+
+/* line 63, src/sass/components/_button.scss */
+.button:hover::before, .button:hover::after {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+/* line 67, src/sass/components/_button.scss */
+.button::before {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+/* line 74, src/sass/components/_button.scss */
+.subscribe-button {
+  overflow: hidden;
+  height: 55px;
+}
+
+/* line 77, src/sass/components/_button.scss */
+.subscribe-button input {
+  width: 230px;
+  height: 55px;
+  display: block;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  font-size: 18px;
+  color: #394356;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  float: left;
+}
+
+/* line 92, src/sass/components/_button.scss */
+.subscribe-button button {
+  display: block;
+  float: left;
+  background-color: #2E4FFF;
+  height: 55px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #fff;
+  width: 160px;
+}
+
+/* line 1, src/sass/components/_banner.scss */
+.banner-container {
+  height: 700px;
+  display: block;
+}
+
+/* line 6, src/sass/components/_banner.scss */
+.banner-img {
+  background-image: url("../images/banner.png");
+}
+
+/* line 10, src/sass/components/_banner.scss */
+.banner-img .title-container {
+  padding-top: 185px;
+}
+
+/* line 14, src/sass/components/_banner.scss */
+.banner-img h2 {
+  font-size: 24px;
+  color: #FF005C;
+  font-weight: 500;
+}
+
+/* line 20, src/sass/components/_banner.scss */
+.banner-img h3 {
+  font-size: 60px;
+  font-family: 'Inter-Thin';
+  font-weight: 700;
+  margin: 20px 0 40px 0;
+}
+
+/* line 1, src/sass/components/_card-gallery.scss */
+.gallery-container {
+  margin-top: 195px;
+}
+
+/* line 5, src/sass/components/_card-gallery.scss */
+.card-gallery {
+  display: block;
+  width: 80%;
+  height: 500px;
+  border-radius: 16px;
+  -webkit-clip-path: polygon(0 0, 0 170%, 100% 90%, 100% 25%, 100% 0%);
+          clip-path: polygon(0 0, 0 170%, 100% 90%, 100% 25%, 100% 0%);
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/* line 15, src/sass/components/_card-gallery.scss */
+.card-gallery .img-card {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* line 21, src/sass/components/_card-gallery.scss */
+.card-gallery h3 {
+  font-size: 28px;
+  margin: 400px 0 10px 30px;
+  font-family: 'Inter';
+}
+
+/* line 27, src/sass/components/_card-gallery.scss */
+.card-gallery p {
+  font-size: 18px;
+  color: #FFC700;
+  margin: 0 0 0 30px;
+}
+
+/* line 1, src/sass/components/_quote.scss */
+.quote {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+  width: 70%;
+}
+
+/* line 9, src/sass/components/_quote.scss */
+.quote-container {
+  padding-top: 500px;
+}
+
+/* line 12, src/sass/components/_quote.scss */
+.quote-container img {
+  margin: 50px auto 20px;
+  display: block;
+}
+
+/* line 17, src/sass/components/_quote.scss */
+.quote-container p {
+  text-align: center;
+}
+
+/* line 21, src/sass/components/_quote.scss */
+.quote-container .city {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* line 1, src/sass/components/_video.scss */
+.video-info-section {
+  margin-top: -100px;
+}
+
+/* line 5, src/sass/components/_video.scss */
+.video-container {
+  background-image: url("../images/video.png");
+  background-size: cover;
+  width: 50%;
+  height: calc(100vw / 2);
+  display: block;
+  position: relative;
+}
+
+/* line 13, src/sass/components/_video.scss */
+.video-container .play {
+  width: 128px;
+  height: 128px;
+  display: block;
+  background-color: #fff;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+/* line 26, src/sass/components/_video.scss */
+.video-container .play img {
+  display: block;
+  margin: 43px auto;
+}
+
+/* line 33, src/sass/components/_video.scss */
+.info-container {
+  width: 50%;
+  height: calc(100vw / 2);
+  display: block;
+  padding-left: 50px;
+}
+
+/* line 39, src/sass/components/_video.scss */
+.info-container .subtitle {
+  color: #2E4FFF;
+  font-size: 24px;
+  margin-top: 260px;
+  margin-bottom: 20px;
+}
+
+/* line 46, src/sass/components/_video.scss */
+.info-container h2 {
+  font-size: 60px;
+  color: #050505;
+  font-family: 'Inter-Thin';
+  margin-bottom: 40px;
+}
+
+/* line 52, src/sass/components/_video.scss */
+.info-container p {
+  font-size: 18px;
+  color: #394356;
+  margin-bottom: 30px;
+}
+
+/* line 58, src/sass/components/_video.scss */
+.info-container button {
+  margin-top: 10px;
+}
+
+/* line 1, src/sass/components/_featured-playlist.scss */
+.featured-playlist {
+  height: 550px;
+}
+
+/* line 3, src/sass/components/_featured-playlist.scss */
+.featured-playlist h3 {
+  font-size: 24px;
+  letter-spacing: 0.4px;
+  color: #050505;
+  padding-left: 25px;
+  margin-top: 150px;
+}
+
+/* line 12, src/sass/components/_featured-playlist.scss */
+.featured-playlist .card-container .card {
+  width: 33.3%;
+  display: block;
+  padding: 25px;
+}
+
+/* line 17, src/sass/components/_featured-playlist.scss */
+.featured-playlist .card-container .card .img-container {
+  border-radius: 5% 70% 5% 70% / 70% 5% 70% 10%;
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+/* line 22, src/sass/components/_featured-playlist.scss */
+.featured-playlist .card-container .card .title {
+  color: #050505;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* line 27, src/sass/components/_featured-playlist.scss */
+.featured-playlist .card-container .card p {
+  color: #2E4FFF;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* line 1, src/sass/components/_subscribe-section.scss */
+.subscribe-section {
+  height: 800px;
+  display: block;
+  background-image: url("../images/subscribe.png");
+  background-size: auto;
+}
+
+/* line 8, src/sass/components/_subscribe-section.scss */
+.subscribe-section .subtitle {
+  color: #FF005C;
+  font-size: 24px;
+  padding-top: 220px;
+  margin-bottom: 20px;
+}
+
+/* line 15, src/sass/components/_subscribe-section.scss */
+.subscribe-section h2 {
+  font-size: 60px;
+  color: #fff;
+  font-family: 'Inter-Thin';
+  margin-bottom: 40px;
+}
+
+/* line 21, src/sass/components/_subscribe-section.scss */
+.subscribe-section p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 30px;
+}

@@ -1,0 +1,26 @@
+.subscribe-section {
+    height:800px;
+    display:block;
+    background-image: url('../images/subscribe.png');
+    background-size: auto;
+
+
+    .subtitle {
+        color: #FF005C;
+        font-size: 24px;
+        padding-top: 220px;
+        margin-bottom:20px;
+    }
+
+    h2 {
+        font-size: 60px;
+        color: #fff;
+        font-family: 'Inter-Thin';
+        margin-bottom:40px;
+    }
+    p {
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom:30px;
+    }
+}

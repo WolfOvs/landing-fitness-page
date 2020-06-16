@@ -1,0 +1,76 @@
+/**
+ * @section Base Styles
+ */
+
+body {
+	margin: 0 auto;
+	color:#fff;
+	font-family: 'Inter';
+	height:2000px;
+
+	a {
+		color:#fff;
+		text-decoration: none;
+	}
+}
+
+ul {
+	list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+	font: inherit;
+}
+
+h1, h2, h3, h4, h5, p {
+	margin: 0;
+}
+
+.container {
+	max-width: 1380px;
+	display:block;
+	margin:0 auto;
+	// width:100%;
+	padding: 0 30px;
+}
+
+.flex-between-end {
+	display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.fxr-center-center {
+	display: flex;
+    justify-content: center;
+}
+
+.flex-vertical-align {
+	align-items: center;
+	display: flex;
+    justify-content: space-between;
+}
+
+.mr-20 {
+	margin-right:20px !important;
+}
+
+.purple-bg {
+	display:block;
+	height:1042px;
+	background: linear-gradient(109.94deg, #112EC5 -0.28%, #D92057 126.51%);
+}
+
+.fs-16 {
+	font-size:16px;
+}
+
+.width-half {
+	width:70%;
+	margin:initial;
+
+}

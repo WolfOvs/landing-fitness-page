@@ -1,0 +1,24 @@
+.quote {
+	font-size:40px;
+	text-align:center;
+	font-weight:bold;
+	margin: 0 auto;;
+	width:70%;
+}
+
+.quote-container {
+	padding-top: 500px;
+	
+	img {
+		margin: 50px auto 20px;
+		display:block;
+    }
+
+    p {
+        text-align:center;
+    }
+    
+    .city {
+        color: rgba(255, 255, 255, 0.6);
+    }
+}

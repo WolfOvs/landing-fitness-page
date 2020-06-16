@@ -1,0 +1,102 @@
+
+.button {
+    color: rgba(255,255,255,1);
+    transition: all 0.3s;
+    position: relative;
+    border:none;
+    overflow: hidden;
+    background-color:#2E4FFF;
+    padding: 14px 30px;
+    line-height: 15px;
+
+    &.empty {
+        background-color: transparent;
+        border:1px solid rgba(255,255,255,0.5);
+    }
+
+    &.pink {
+        background: #FF005C;
+    }
+}
+
+.sim-button {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    height:47px;
+    border-radius:25px;
+    cursor: pointer;
+}
+
+.button::before {
+    transition-delay: 0.2s;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255,255,255,0.25);
+    transition: all 0.3s;
+    transform: translate(13%,-190%) rotate(30deg);
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255,255,255,0.25);
+    transition: all 0.3s;
+    transform: translate(-13%,-190%) rotate(-30deg);
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+
+.button:hover::before, .button:hover::after {
+    transform: translate(0,0);
+}
+
+.button::before {
+    transition-delay: 0.2s;
+}
+
+
+
+
+.subscribe-button {
+    overflow: hidden;
+    height: 55px;
+    input {
+        width:230px;
+        height:55px;
+        display:block;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        font-size:18px;
+        color: #394356;
+        background-color:#fff;
+        border:none;
+        outline: none;
+        padding-left: 20px;
+        float:left;
+    }
+
+    button {
+        display:block;
+        float:left;
+        background-color:#2E4FFF;
+        height:55px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        color:#fff;
+        width:160px;
+    }
+}

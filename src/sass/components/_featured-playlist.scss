@@ -1,0 +1,34 @@
+.featured-playlist {
+    height:550px;
+    h3 {
+        font-size: 24px;
+        letter-spacing: 0.4px;
+        color: #050505;
+        padding-left:25px;
+        margin-top:150px;
+    }
+
+    .card-container {
+        .card {
+            width: 33.3%;
+            display: block;
+            padding:25px;
+
+            .img-container {
+                border-radius: 5% 70% 5% 70% / 70% 5% 70% 10%;
+                height:250px;    
+                margin-bottom: 30px;
+            }
+            .title {
+                color: #050505;
+                font-size: 28px;
+                margin-bottom: 10px;
+            }
+            p {
+                color: #2E4FFF;
+                font-size: 18px;
+                text-align:center;
+            }
+        }
+    }
+}
