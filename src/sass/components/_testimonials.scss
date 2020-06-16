@@ -1,0 +1,37 @@
+.testimonials-section {
+    height: 420px;
+    background-color: #fff;
+    display:block;
+
+    .card-container {
+        padding-top:140px;
+
+    .card {
+        width:25%;
+        margin: 0 20px;
+
+        .img-container {
+            height:55px;
+            display:block;
+            width:auto;
+            position:relative;
+            margin-bottom:50px;
+            img {
+                display:block;
+                margin:0 auto;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+            }
+          }
+
+          p {
+            font-size: 16px;
+            text-align: center;
+            color: #394356;
+          }
+        }
+    }
+}
