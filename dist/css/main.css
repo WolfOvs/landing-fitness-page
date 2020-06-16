@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, p {
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+  src: url("../fonts/Inter-Regular.ttf") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, p {
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url("../fonts/Inter-Thin.woff2") format("woff2"), url("../fonts/Inter-Thin.woff") format("woff");
+  src: url("../fonts/Inter-Thin.ttf") format("woff2"), url("../fonts/Inter-Thin.woff") format("woff");
 }
 
 /* line 1, src/sass/components/_header.scss */
