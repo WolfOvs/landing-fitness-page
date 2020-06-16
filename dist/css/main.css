@@ -7,21 +7,20 @@ body {
   margin: 0 auto;
   color: #fff;
   font-family: 'Inter';
-  height: 2000px;
 }
 
-/* line 11, src/sass/components/_base.scss */
+/* line 10, src/sass/components/_base.scss */
 body a {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 17, src/sass/components/_base.scss */
+/* line 16, src/sass/components/_base.scss */
 ul {
   list-style: none;
 }
 
-/* line 21, src/sass/components/_base.scss */
+/* line 20, src/sass/components/_base.scss */
 input,
 textarea,
 select,
@@ -29,12 +28,12 @@ button {
   font: inherit;
 }
 
-/* line 28, src/sass/components/_base.scss */
+/* line 27, src/sass/components/_base.scss */
 h1, h2, h3, h4, h5, p {
   margin: 0;
 }
 
-/* line 32, src/sass/components/_base.scss */
+/* line 31, src/sass/components/_base.scss */
 .container {
   max-width: 1380px;
   display: block;
@@ -42,7 +41,7 @@ h1, h2, h3, h4, h5, p {
   padding: 0 30px;
 }
 
-/* line 40, src/sass/components/_base.scss */
+/* line 39, src/sass/components/_base.scss */
 .flex-between-end {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,7 +56,7 @@ h1, h2, h3, h4, h5, p {
       align-content: flex-end;
 }
 
-/* line 47, src/sass/components/_base.scss */
+/* line 46, src/sass/components/_base.scss */
 .fxr-center-center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -67,7 +66,7 @@ h1, h2, h3, h4, h5, p {
           justify-content: center;
 }
 
-/* line 52, src/sass/components/_base.scss */
+/* line 51, src/sass/components/_base.scss */
 .flex-vertical-align {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -80,30 +79,30 @@ h1, h2, h3, h4, h5, p {
           justify-content: space-between;
 }
 
-/* line 58, src/sass/components/_base.scss */
+/* line 57, src/sass/components/_base.scss */
 .mr-20 {
   margin-right: 20px !important;
 }
 
-/* line 62, src/sass/components/_base.scss */
+/* line 61, src/sass/components/_base.scss */
 .purple-bg {
   display: block;
   height: 1042px;
   background: linear-gradient(109.94deg, #112EC5 -0.28%, #D92057 126.51%);
 }
 
-/* line 68, src/sass/components/_base.scss */
+/* line 67, src/sass/components/_base.scss */
 .fs-16 {
   font-size: 16px;
 }
 
-/* line 72, src/sass/components/_base.scss */
+/* line 71, src/sass/components/_base.scss */
 .width-half {
   width: 70%;
   margin: initial;
 }
 
-/* line 78, src/sass/components/_base.scss */
+/* line 77, src/sass/components/_base.scss */
 .hvr-grow-shadow {
   display: inline-block;
   vertical-align: middle;
@@ -118,7 +117,7 @@ h1, h2, h3, h4, h5, p {
   transition-property: box-shadow, transform, -webkit-box-shadow, -webkit-transform;
 }
 
-/* line 89, src/sass/components/_base.scss */
+/* line 88, src/sass/components/_base.scss */
 .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -129,7 +128,7 @@ h1, h2, h3, h4, h5, p {
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url("../../fonts/Inter-Regular.woff2") format("woff2"), url("../../fonts/Inter-Regular.woff") format("woff");
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -137,84 +136,9 @@ h1, h2, h3, h4, h5, p {
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url("../../fonts/Inter-Thin.woff2") format("woff2"), url("../../fonts/Inter-Thin.woff") format("woff");
+  src: url("../fonts/Inter-Thin.woff2") format("woff2"), url("../fonts/Inter-Thin.woff") format("woff");
 }
 
-/*
-  @font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 200;
-    font-display: swap;
-    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
-         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
-         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
-  }
-  
-  
-  @font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
-         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
-  }
-  
-  
-  @font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 500;
-    font-display: swap;
-    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
-         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
-         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
-         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 800;
-    font-display: swap;
-    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
-         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 900;
-    font-display: swap;
-    src: url("../../fonts/Inter-Regular.woff2?v=3.13") format("woff2"),
-         url("../../fonts/Inter-Regular.woff?v=3.13") format("woff");
-  }
-*/
 /* line 1, src/sass/components/_header.scss */
 header {
   background-color: #050505;
@@ -407,7 +331,7 @@ header .menu li {
 /* line 5, src/sass/components/_card-gallery.scss */
 .card-gallery {
   display: block;
-  width: 80%;
+  width: 90%;
   height: 500px;
   border-radius: 16px;
   -webkit-clip-path: polygon(0 0, 0 170%, 100% 90%, 100% 25%, 100% 0%);
@@ -473,9 +397,11 @@ header .menu li {
 /* line 1, src/sass/components/_video.scss */
 .video-info-section {
   margin-top: -100px;
+  display: inline-block;
+  width: 100%;
 }
 
-/* line 5, src/sass/components/_video.scss */
+/* line 7, src/sass/components/_video.scss */
 .video-container {
   background-image: url("../images/video.png");
   background-size: cover;
@@ -483,9 +409,10 @@ header .menu li {
   height: calc(100vw / 2);
   display: block;
   position: relative;
+  float: left;
 }
 
-/* line 13, src/sass/components/_video.scss */
+/* line 16, src/sass/components/_video.scss */
 .video-container .play {
   width: 128px;
   height: 128px;
@@ -501,46 +428,49 @@ header .menu li {
   cursor: pointer;
 }
 
-/* line 26, src/sass/components/_video.scss */
+/* line 29, src/sass/components/_video.scss */
 .video-container .play img {
   display: block;
-  margin: 43px auto;
+  margin: 43px 52px;
 }
 
-/* line 33, src/sass/components/_video.scss */
+/* line 36, src/sass/components/_video.scss */
 .info-container {
-  width: 50%;
-  height: calc(100vw / 2);
+  width: 40%;
   display: block;
-  padding-left: 50px;
+  float: left;
 }
 
-/* line 39, src/sass/components/_video.scss */
+/* line 41, src/sass/components/_video.scss */
 .info-container .subtitle {
   color: #2E4FFF;
   font-size: 24px;
-  margin-top: 260px;
+  margin-top: 200px;
   margin-bottom: 20px;
+  padding-left: 50px;
 }
 
-/* line 46, src/sass/components/_video.scss */
+/* line 49, src/sass/components/_video.scss */
 .info-container h2 {
   font-size: 60px;
   color: #050505;
   font-family: 'Inter-Thin';
   margin-bottom: 40px;
+  padding-left: 50px;
 }
 
-/* line 52, src/sass/components/_video.scss */
+/* line 56, src/sass/components/_video.scss */
 .info-container p {
   font-size: 18px;
   color: #394356;
   margin-bottom: 30px;
+  padding-left: 50px;
 }
 
-/* line 58, src/sass/components/_video.scss */
+/* line 63, src/sass/components/_video.scss */
 .info-container button {
   margin-top: 10px;
+  margin-left: 50px;
 }
 
 /* line 1, src/sass/components/_featured-playlist.scss */
@@ -677,7 +607,7 @@ header .menu li {
 
 /* line 6, src/sass/components/_testimonials.scss */
 .testimonials-section .card-container {
-  padding-top: 140px;
+  padding-top: 120px;
 }
 
 /* line 9, src/sass/components/_testimonials.scss */

@@ -4,7 +4,7 @@
     display:block;
 
     .card-container {
-        padding-top:140px;
+        padding-top:120px;
 
     .card {
         width:25%;
@@ -16,6 +16,11 @@
             width:auto;
             position:relative;
             margin-bottom:50px;
+
+            &.scale-up {
+                margin-top:-10px;
+            }
+
             img {
                 display:block;
                 margin:0 auto;
